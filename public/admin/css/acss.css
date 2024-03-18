@@ -1,0 +1,95 @@
+/* Bootstrap Styles */
+@import url("https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css");
+@import url("https://cdn.jsdelivr.net/npm/mdb-ui-kit@3.6.0/css/mdb.min.css");
+
+
+/* Footer */
+.footer {
+    padding: 1rem;
+    background-color: #343a40;
+    color: white;
+    text-align: center;
+}
+
+
+table {
+    display: table;
+    text-align: center;
+    max-width: 100%; /*  max-width: 100%; Set the max-width of the table to 100% - 300px */
+    margin: 0 auto; /* Center the table horizontally */
+}
+
+thead th,
+tbody td {
+    vertical-align: middle;
+}
+
+
+.tag {
+    display: inline-block;
+    background-color: #ba68c8;
+    border-radius: 15px;
+    padding: 10px 10px 10px 10px;
+    font-size: 12px;
+    line-height: 1;
+    margin-left: 5px;
+    margin-top: 10px;
+    color: white;
+    user-select: none; /* prevent copying */
+
+}
+
+#tags-input::placeholder {
+    display: inline-block;
+    background-color: #ba68c8;
+    border-radius: 15px;
+    padding: 10px 10px 10px 10px;
+    font-size: 12px;
+    line-height: 1;
+    margin-left: 5px;
+    margin-top: 10px;
+    color: white;
+    user-select: none; /* prevent copying */
+}
+
+.tag:hover {
+    background-color: #ce93d8;
+}
+
+.remove-button {
+    margin: 5px 5px;
+    height: 20px;
+}
+
+.invalid-feedback {
+    position: relative;
+    height: 20px; /* set this to the height of your validation message element */
+}
+
+.bottom-element {
+    margin-top: 25px; /* set this to the height of your validation message element */
+}
+
+
+#product_container div {
+    margin-top: 10px;
+}
+
+.color-circle {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+}
+
+#color_code {
+    width: 50px;
+    border-width: 2px;
+    border-color: #2d3748;
+    border-radius: 50px
+}
+
+
